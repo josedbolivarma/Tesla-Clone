@@ -42,7 +42,17 @@ const sectionItems = [
       "time": "2.05",
       "topSpeed": "190",
       "peakPower": "1,040"
-  }
+  },
+  {
+    "id": 4,
+    "title": "Accesories",
+    "description": "",
+    "image": "accessories.jpg",
+    "range": "0",
+    "time": "0",
+    "topSpeed": "0",
+    "peakPower": "0"
+}
 ];
 
 const Home = () => {
@@ -69,5 +79,6 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
+    width: 100%;
     height: 100vh;
 `;

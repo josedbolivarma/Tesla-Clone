@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   color: #393c41;
@@ -8,6 +10,10 @@
 
 a {
   text-decoration: none;
+}
+
+ul li{
+  list-style: none;
 }
 
 body {
